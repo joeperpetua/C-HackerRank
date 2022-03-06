@@ -162,6 +162,9 @@
     <ClInclude Include="Header Files\e6.h" />
     <ClInclude Include="Header Files\e7.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
