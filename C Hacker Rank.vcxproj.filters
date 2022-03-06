@@ -18,5 +18,49 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="e1.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource Files\e2.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource Files\e3.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource Files\e4.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource Files\e5.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource Files\e6.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource Files\e7.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="e1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\e2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\e3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\e4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\e5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\e6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\e7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

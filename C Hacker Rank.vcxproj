@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\joelp\Desktop\proj\C Hacker Rank\C Hacker Rank\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -102,6 +103,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\joelp\Desktop\proj\C Hacker Rank\C Hacker Rank\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,7 +141,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.c" />
+    <ClCompile Include="e1.c" />
+    <ClCompile Include="main.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\joelp\Desktop\proj\C Hacker Rank\C Hacker Rank\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\joelp\Desktop\proj\C Hacker Rank\C Hacker Rank\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="Resource Files\e2.c" />
+    <ClCompile Include="Resource Files\e3.c" />
+    <ClCompile Include="Resource Files\e4.c" />
+    <ClCompile Include="Resource Files\e5.c" />
+    <ClCompile Include="Resource Files\e6.c" />
+    <ClCompile Include="Resource Files\e7.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="e1.h" />
+    <ClInclude Include="Header Files\e2.h" />
+    <ClInclude Include="Header Files\e3.h" />
+    <ClInclude Include="Header Files\e4.h" />
+    <ClInclude Include="Header Files\e5.h" />
+    <ClInclude Include="Header Files\e6.h" />
+    <ClInclude Include="Header Files\e7.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
