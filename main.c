@@ -85,11 +85,98 @@ void e4() {
     return;
 }
 
+void update(int* a, int* b) {
+    int temp_values[2];
+
+    temp_values[0] = *a + *b;
+    temp_values[1] = *a - *b;
+
+    // if the diff is a negative value, turn into positive to get the abs value.
+    if (temp_values[1] < 0) {
+        temp_values[1] = temp_values[1] * (-1);
+    }
+
+    *a = temp_values[0];
+    *b = temp_values[1];
+}
+
+void e5() {
+    int a, b;
+    int* pa = &a, * pb = &b;
+    
+    printf("Insert 2 int values to get their sum and their absolute difference:\n");
+    scanf_s("%d %d", &a, &b);
+    
+    update(pa, pb);
+
+    printf("Sum: %d\nAbsolute diff: %d", a, b);
+
+    return;
+}
+
+void e6() {
+    int num;
+    char numbers[9][6] = {
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine"
+    };
+
+    printf("Enter a number greater than 0:\n");
+    scanf_s("%d", &num);
+
+    if (num > 0 && num < 10) {
+        printf("String of value: %s", numbers[num - 1]);
+    }
+    else if (num > 9) {
+        printf("Greater than 9");
+    }
+
+    return;
+}
+
+void e7(){
+    int a, b;
+    char numbers[9][6] = {
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine"
+    };
+    printf("Enter an interval start and end value, greater than 0:\n");
+    scanf_s("%d\n%d", &a, &b);
+
+    for (int i = a; i <= b; i++) {
+        if (i > 0 && i < 10) {
+            printf("String of value: %s\n", numbers[i - 1]);
+        }
+        else if (i > 9 && i % 2 == 0) {
+           printf("Even\n");
+        }
+        else if (i > 9 && i % 2 != 0) {
+            printf("Odd\n");
+        }
+    }
+
+    return;
+}
+
 int main()
 {
     int selection;
 
-    printf("Select an exercise to run. (1 to 4)\n");
+    printf("Select an exercise to run. (1 to 7)\n");
     scanf_s("%d", &selection);
 
     switch (selection)
@@ -109,6 +196,18 @@ int main()
     case 4:
         printf("Running exercise %d\n", selection);
         e4();
+        break;
+    case 5:
+        printf("Running exercise %d\n", selection);
+        e5();
+        break;
+    case 6:
+        printf("Running exercise %d\n", selection);
+        e6();
+        break;
+    case 7:
+        printf("Running exercise %d\n", selection);
+        e7();
         break;
     default:
         printf("Selected exercise %d not found", selection);
