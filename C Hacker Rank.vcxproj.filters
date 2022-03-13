@@ -39,6 +39,12 @@
     <ClCompile Include="Resource Files\e1.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="Resource Files\e9.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource Files\e8.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\e2.h">
@@ -60,6 +66,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Header Files\e1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\e8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\e9.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -9,13 +9,15 @@
 #include "e5.h"
 #include "e6.h"
 #include "e7.h"
+#include "e8.h"
+#include "e9.h"
 
 
 int main()
 {
     int selection;
 
-    printf("Select an exercise to run. (1 to 7)\n");
+    printf("Select an exercise to run. (1 to 9)\n");
     scanf_s("%d", &selection);
 
     switch (selection)
@@ -47,6 +49,14 @@ int main()
     case 7:
         printf("Running exercise %d\n", selection);
         e7();
+        break;
+    case 8:
+        printf("Running exercise %d\n", selection);
+        e8();
+        break;
+    case 9:
+        printf("Running exercise %d\n", selection);
+        e9();
         break;
     default:
         printf("Selected exercise %d not found", selection);

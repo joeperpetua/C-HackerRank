@@ -10,3 +10,5 @@ The exercises are located into ./Resource Files:
 - [Pointers in C](https://github.com/joeperpetua/C-HackerRank/blob/main/Resource%20Files/e5.c)
 - [Conditional statemenst in C](https://github.com/joeperpetua/C-HackerRank/blob/main/Resource%20Files/e6.c)
 - [For loop in C](https://github.com/joeperpetua/C-HackerRank/blob/main/Resource%20Files/e7.c)
+- [Sum of Digits of a Five Digit Number](https://github.com/joeperpetua/C-HackerRank/blob/main/Resource%20Files/e8.c)
+- [Bitwise Operators](https://github.com/joeperpetua/C-HackerRank/blob/main/Resource%20Files/e7.c)

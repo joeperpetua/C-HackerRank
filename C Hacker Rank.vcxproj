@@ -152,6 +152,8 @@
     <ClCompile Include="Resource Files\e5.c" />
     <ClCompile Include="Resource Files\e6.c" />
     <ClCompile Include="Resource Files\e7.c" />
+    <ClCompile Include="Resource Files\e8.c" />
+    <ClCompile Include="Resource Files\e9.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\e1.h" />
@@ -161,6 +163,8 @@
     <ClInclude Include="Header Files\e5.h" />
     <ClInclude Include="Header Files\e6.h" />
     <ClInclude Include="Header Files\e7.h" />
+    <ClInclude Include="Header Files\e8.h" />
+    <ClInclude Include="Header Files\e9.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
